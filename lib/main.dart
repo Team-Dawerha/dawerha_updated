@@ -1,3 +1,4 @@
+import 'package:dawerha/screens/introScreen.dart';
 import 'package:flutter/material.dart';
 import 'package:dawerha/screens/home.dart';
 
@@ -10,8 +11,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: "DAWERHA",
-      home: Home() ,
-
+      home: IntroScreen() ,
     );//End
+    }
   }
-}
