@@ -15,7 +15,7 @@ class HomeState extends State<Home> {
       child: Scaffold(
         appBar: AppBar(
           title: Text("DAWERHA"),
-          backgroundColor: Colors.red,
+          backgroundColor: Colors.green,
           centerTitle: true,
           actions: <Widget>[
             IconButton(icon: Icon(Icons.control_point), onPressed: () {})
