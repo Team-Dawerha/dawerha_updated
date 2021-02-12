@@ -188,7 +188,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
         showToast(context, 'الرجاء التأكد من البيانات');
       }
     } catch (e) {
-      print(e);
+      showToast(context, 'الرجاء التأكد من البيانات');
     }
   }
 }

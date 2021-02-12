@@ -20,8 +20,11 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: "DAWERHA",
-      home: Home(),
+      home: IntroScreen(),
       routes: {
+        "home": (context) {
+          return Home();
+        },
         "login": (context) {
           return Log();
         },

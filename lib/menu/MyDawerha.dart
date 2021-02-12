@@ -39,6 +39,13 @@ class MyDrawer extends StatelessWidget {
             },
           ),
           ListTile(
+            title: Text(" إنشاء حساب "),
+            leading: Icon(Icons.account_box),
+            onTap: () {
+              Navigator.of(context).pushNamed("register");
+            },
+          ),
+          ListTile(
             title: Text("طلب جديد"),
             leading: Icon(Icons.car_repair, color: Colors.green),
             onTap: () {
