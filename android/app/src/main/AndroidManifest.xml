@@ -3,10 +3,11 @@
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
          <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
    <application
-        android:label="dawerha"
-        android:icon="@mipmap/ic_launcher">
-        <meta-data android:name="com.google.android.geo.API_KEY"
-               android:value="AIzaSyBFOdN_jgiRdrt9p8JyWgN59pXROWwQCMw"/>
+        android:label="dawerha">
+        
+
+               <meta-data android:name="com.google.android.geo.API_KEY"
+               android:value="AIzaSyBQP2ruxh2jyeQVoBhVXxbPyi9ipGcQ2Ac"/>
         <activity
             android:name=".MainActivity"
             android:launchMode="singleTop"

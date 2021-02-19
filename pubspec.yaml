@@ -33,8 +33,10 @@ dependencies:
   firebase_auth: ^0.20.0+1
   toast: ^0.1.5
   shared_preferences: ^0.5.12+4
-  google_maps_flutter: ^0.5.27+2
+  google_maps_flutter: ^1.2.0
   geolocator: ^6.1.13
+
+  
 
 dev_dependencies:
   flutter_test:
